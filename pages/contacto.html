@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuelalto</title>
+    <link rel="icon" href="../img/vuela.png">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header>
+        <div><h1 class="textoCabecera">Vuela Alto</h1><br></div>
+        <div class="logo">
+        <img src="../img/logoalas.png" alt="alas">
+        </div>
+        <nav class="menuPagina">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./quienessomos.html">Quienes Somos</a></li>
+                <li><a href="./talleres.html">Talleres</a></li>
+                <li><a href="./galeria.html">Galeria</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Contactenos para vivir una experiencia inolvidable !!!</h2><br>
+        <h3>Favor de ingresar sus datos y que es lo que esperar de usted mismo !!!</h3><br>
+    <article class="contenedorFormulario">
+        <form class="formulario" action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre"><br><br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="Apellido" name="apellido" placeholder="Apellido"><br><br>
+        <label for="Edad">Edad</label>
+        <input type="number" id="edad" name="edad" placeholder="Ingrese su Edad"><br><br>
+        <div>Ingrese su Sexo</div><br>
+        <input type="radio" name="sexo">Msculino
+        <input type="radio" name="sexo">Femenino<br><br>
+        <div>Pais de Origen</div><br>
+        <select name="pais" id="pais">
+            <option value="Argentina">Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Chile">Chile</option>
+            <option value="Uruguay">Uruguay</option>
+        </select><br><br>
+        <textarea name="comentario" id="comentario" cols="20" rows="10">Ingrese algún comentario</textarea><br><br>
+        <input type="submit" Enviar><br><br>
+        </form>
+    </article>
+    </section>
+    <footer>
+        <div class="piedePaginaRedes">
+        <p>Siguenos en nuestas redes para mas informacion</p><br><br><br>
+        <a href="http://facebook.com"><img src="../img/iconfacebook.png" alt="facebook"></a>
+        <a href="http://instagra.com"><img src="../img/iconinstagram.png" alt="instagram"></a>
+        <a href="http://twiter.com"><img src="../img/iconstwitter.png" alt="twiter"></a><br>
+        <p> Copyright 2022 Vuela Alto</p>
+        </div>
+    </footer>
+</html>

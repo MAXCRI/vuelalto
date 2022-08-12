@@ -1,0 +1,543 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-image: url(../img/cabecera.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    margin-left:auto;
+    margin-right: auto;
+}
+/* Menu Paginas*/
+.logo{
+    order: -1;
+    padding-left: 10px;
+}
+.logo img{
+    background-color: rgba(255, 255, 255, 0);
+    height:200px ;
+    width: 200px;
+    margin-top: 10px;
+}
+.menuPagina{
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #eadbebb4;
+    background-position: left;
+    width:200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: 7px 4px 5px rgba(0, 0, 0, 0.644);
+    list-style:none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    text-align: center;
+    text-shadow: 7px 4px 5px rgba(0, 0, 0, 0.747);
+    order: -4;
+    justify-self: end;
+    grid-gap: 10px;
+    position: fixed;
+}
+.menuPagina a{
+    text-decoration: none;
+}
+/* Titulos */
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 25px;
+    text-align: center;
+    color: rgba(137, 137, 247, 0.678);
+    font-style: italic;
+    font-size:80px;
+    text-shadow: 4px 4px 5px black;
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 25px;
+    text-align: center;
+    color: rgba(137, 137, 247, 0.678);
+    font-style: italic;
+    font-size:80px;
+    text-shadow: 4px 4px 5px black;
+}
+
+
+h2 {
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200%;
+    color:#0c0909;
+    text-shadow: 7px 4px 5px rgba(0, 0, 0, 0.466);
+}
+
+h3{
+    text-align: center;
+    padding: 2px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    color:#0c0909;
+    text-shadow: 7px 4px 5px rgba(0, 0, 0, 0.466);
+
+}
+/* INDEX*/
+
+.contenedorTexto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.textoSubtitulo {
+    background-color: #eadbebb4;
+    font-size: 20px;
+    width: 600px;
+    padding: 10px;
+    border-radius: 10px;
+        box-shadow: 7px 4px 6px rgba(0, 0, 0, 0.788);;
+}
+/* Se aplica GRIDS en la galeria, el header y las frases de quienens somos*/
+
+.frases{
+    width: 100%;
+    height: 1800px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr); 
+    margin-left:auto;
+    margin-right: auto;
+    grid-gap: 20px;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 180%;
+    text-align: center;
+}
+.frase1{
+    display: flex;
+    background-image: url(../img/cabecera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 7px 4px 5px rgba(0, 0, 0, 0.644);
+    border-radius: 10px;
+    align-items: center;
+    color: white;
+    text-shadow: 4px 4px 5px black;
+}
+.frase4{
+    display: flex;
+    background-image: url(../img/camino.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 7px 4px 5px rgba(0, 0, 0, 0.644);
+    border-radius: 10px;
+    align-items: center;
+    color: white;
+    text-shadow: 4px 4px 5px black;
+}
+.frase5{
+    display: flex;
+    background-image: url(../img/montaña.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 7px 4px 5px rgba(0, 0, 0, 0.644);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    color: white;
+    text-shadow: 4px 4px 5px black;
+}
+/* Quines Somos */
+
+.containerFlex{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px #000;
+    background-color: aliceblue;
+    padding: 20px;
+}
+.containerTestimonio{
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+    height:800px;
+    margin: 0 auto;
+    padding:20px;
+}
+.rostro1{
+    background-image: url(../img/testimonio1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:150%;
+    border-radius:100%;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    line-height: 120px;
+    margin-right: 10px;
+}
+.testimonio1{
+    height: 120px;
+    width:80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.371);
+}
+.rostro2{
+    background-image: url(../img/testimonio2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:150%;
+    border-radius:100%;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    line-height: 120px;
+    margin-right: 10px;
+}
+.testimonio2{
+    height: 120px;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.371);
+}
+.rostro3{
+    background-image: url(../img/testimonio4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:150%;
+    border-radius:100%;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    line-height: 120px;
+    margin-right: 10px;
+}
+.testimonio3{
+    height: 120px;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.371);
+}
+.video{
+    background-color: white;
+    height: 500px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 5px;
+}
+.videoTamaño{
+    width: 60%;
+    height: 100%;
+}
+/* Talleres*/
+
+.tablaTalleres{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+.cursoTalleres{
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 180px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:20px;
+}
+table{
+    text-align: center;
+    height: 50%;
+    width: 100%;
+    background-color: white;
+    text-shadow: 7px 4px 5px rgba(0, 0, 0, 0.322);
+}
+th,td{
+    border: solid 2px;
+    padding: 20px;
+}
+thead{
+    border: solid 2px;
+    background-color: rgb(211, 228, 211);
+}
+/* GALERIA */
+
+.galeria{
+    width: 80%;
+    height: 800px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr); 
+    margin-left:auto;
+    margin-right: auto;
+    grid-gap: 40px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+.foto{
+    background-color: #333;
+    border: 2px solid #000;
+    width: 100%;
+    box-shadow: 7px 4px 5px rgba(0, 0, 0, 0.788);
+    border-radius: 5px;
+    filter: grayscale(50%);
+    border-radius: 5px;
+}
+.foto:hover{
+    transform: scale(0.8.2);
+    transition: all 0.8s;
+    filter: grayscale(0%);
+    box-shadow:4px 7px 4px 5px rgba(226, 86, 11, 0.928);
+}
+.foto1{
+    background-image: url(../img/escuela.jpg);
+    background-size:cover;
+    background-position: center;
+}
+.foto2{
+    background-image: url(../img/taller.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto3{
+    background-image: url(../img/tallerteatro.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto4{
+    background-image: url(../img/tellerteatro2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* CONTACTO */
+
+.formulario{
+    background-color: #eadbebb4;
+    box-shadow:4px 7px 4px 5px rgba(0, 0, 0, 0.525);
+    text-align: center;
+    font-size: 20px;
+    width:50%;
+    padding: 20px;
+    margin-bottom: 50px;
+    overflow:visible;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.subtitulosFormulario{
+    font-size: 20px;
+}
+.contenedorFormulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../img/cabecera.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    list-style:none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    text-shadow: 7px 4px 5px rgba(0, 0, 0, 0.747);
+}
+.piedePaginaRedes{
+    text-align: center;
+    margin-top: -30px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+.piedePaginaRedes p{
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: rgb(49, 49, 212);
+}
+@media only screen and (max-width:908px){
+    .galeria{
+        grid-template-columns:repeat(1, 1fr);
+        grid-gap: 10px;
+        width: 60%;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+    h1{
+        display: flex;
+        margin-top: 200px;
+        padding: 0%;
+        justify-content: center;
+    }
+    h2{
+        margin-top: 10px;
+    }
+    .logo{
+        display: none;
+    }
+    .logo img{
+        display: none;
+    }
+    .footer{
+        height: 50px;
+    }
+    .piedePaginaRedes{
+        text-align: center;
+        margin-top: 5px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+    .piedePaginaRedes img{
+        height: 60px;
+        padding-bottom: 5px;
+    }
+    .piedePaginaRedes p{
+        display: none;
+    }
+    .frases{
+        font-size: 120%;
+        grid-template-columns:repeat(1, 1fr);
+    }
+    header{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .frase2{
+        display: none;
+    }
+    .frase3{
+        display: none;
+    }
+    .frase6{
+        display: none;
+    }
+    .galeria{
+        grid-template-columns:repeat(1, 1fr);
+        width: 100%;
+    }
+    .textoSubtitulo {
+        background-color: #eadbebb4;
+        font-size: 15px;
+        width: 100%;
+        padding: 10px;
+    }
+    .menuPagina{
+        background-position: center;
+        width:180px;
+        height: 180px;
+        font-size: 130%;
+        text-align: center;
+        margin:0,auto;
+        margin-top: 1px;
+    }
+    .videoTamaño{
+        width: 100%;
+        margin: 0;
+    }
+    .cursoTalleres{
+        font-size: 15px;
+        padding:0;
+        margin: 0, auto;
+        width:100%;
+    }
+    .tablaDuracionOculta{
+        display: none;
+    }
+    th,td{
+        padding:5px
+    }
+    .menuPaginaTalleres{
+        position:absolute
+    }
+    .formulario{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:682px){
+    h1{
+        font-size: 50px;
+    }
+    }
+@media only screen and (max-width:302px){
+        h1{
+            font-size: 40px;
+        }
+        h2{
+            font-size: 25px;
+        }
+        h3{
+            font-size: 25px;
+        }
+        .menuPagina{
+            background-position: center;
+            width:150px;
+            height: 180px;
+            font-size: 120%;
+            text-align: center;
+            margin-top: 1px;
+            align-items: center;
+            margin-right: 50px;
+        }
+        .tablaDuracionOculta{
+            display: none;
+        }
+        th,td{
+            padding:1px;
+            font-size: 10px;
+        }
+        .testimonio1{
+            font-size: 15px;
+            padding: 3px;
+        }
+        .testimonio2{
+            font-size: 15px;
+            padding: 3px;
+        }
+        .testimonio3{
+            font-size: 15px;
+            padding: 3px;
+        }
+        .containerTestimonio{
+            padding: 3px;
+        }
+    }
+
+@media only screen and (max-width:1000px){
+    .rostro1{
+        display: none;
+    }
+    .rostro2{
+        display: none;
+    }
+    .rostro3{
+        display: none;
+    }
+    .containerTestimonio{
+        width: 100%;
+    }
+    .testimonio1{
+        overflow:visible;
+    }
+    .testimonio2{
+        overflow: visible;
+    }
+    .testimonio3{
+        overflow: visible;
+    }
+}
