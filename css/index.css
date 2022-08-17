@@ -20,7 +20,7 @@ header{
     padding-left: 10px;
 }
 .logo img{
-    background-color: rgba(255, 255, 255, 0);
+        background-color: rgba(255, 255, 255, 0);
     height:200px ;
     width: 200px;
     margin-top: 10px;
@@ -66,8 +66,15 @@ h1{
     font-style: italic;
     font-size:80px;
     text-shadow: 4px 4px 5px black;
+    transition: font-size 2s;
 }
-
+h1:hover{
+    color:rgba(137, 137, 247, 0.451) ;
+    text-shadow: 3px 3px 4px black;
+    transition-timing-function: ease;
+    transition: 1.5s;
+    font-size: 90px;
+}
 
 h2 {
     text-align: center;
