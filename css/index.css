@@ -377,6 +377,7 @@ footer{
     font-weight: bolder;
     color: rgb(49, 49, 212);
 }
+/*
 @media only screen and (max-width:908px){
     .galeria{
         grid-template-columns:repeat(1, 1fr);
