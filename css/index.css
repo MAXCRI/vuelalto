@@ -352,10 +352,10 @@ thead{
     align-items: center;
     justify-content: center;
 }
-
+/* Se agrega Gradiente */
 footer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(../img/cabecera.jpg);
+    background-image:linear-gradient(to left, rgba(255, 255, 255, 0.464),rgba(255, 255, 255, 0.003)), url(../img/cabecera.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
