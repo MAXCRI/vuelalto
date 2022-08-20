@@ -3,77 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    width: 100%;
+/*Menu con Boostrap*/
+nav{
+    display: flex;
     background-image: url(../img/cabecera.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 300px;
-    margin-left:auto;
-    margin-right: auto;
+    padding: 1% !important;
 }
-/* Menu Paginas*/
 .logo{
-    order: -1;
-    padding-left: 10px;
+    width: 40%;
 }
-.logo img{
-        background-color: rgba(255, 255, 255, 0);
-    height:200px ;
-    width: 200px;
-    margin-top: 10px;
+.btn-info{
+    background-color:rgba(137, 137, 247, 0.461) ;
 }
-.menuPagina{
-    margin-top: 20px;
-    margin-right: 20px;
-    background-color: #eadbebb4;
-    background-position: left;
-    width:200px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 25px;
-    box-shadow: 7px 4px 5px rgba(0, 0, 0, 0.644);
-    list-style:none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 150%;
-    text-align: center;
-    text-shadow: 7px 4px 5px rgba(0, 0, 0, 0.747);
-    order: -4;
-    justify-self: end;
-    grid-gap: 10px;
-    position: fixed;
+.nav-item{
+    padding: 2px;
 }
-.menuPagina a{
-    text-decoration: none;
-}
+
 /* Titulos */
 h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 25px;
-    text-align: center;
+    padding: 15px;
     color: rgba(137, 137, 247, 0.678);
     font-style: italic;
-    font-size:80px;
-    text-shadow: 4px 4px 5px black;
-}
-h1{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 25px;
-    text-align: center;
-    color: rgba(137, 137, 247, 0.678);
-    font-style: italic;
-    font-size:80px;
+    font-size:90px;
     text-shadow: 4px 4px 5px black;
     transition: font-size 2s;
+    text-align: center;
+    margin-top: 60px;
 }
+
 h1:hover{
     color:rgba(137, 137, 247, 0.451) ;
     text-shadow: 3px 3px 4px black;
     transition-timing-function: ease;
     transition: 1.5s;
-    font-size: 90px;
+    font-size: 100px;
 }
 
 h2 {
@@ -96,7 +61,6 @@ h3{
     font-size: 150%;
     color:#0c0909;
     text-shadow: 7px 4px 5px rgba(0, 0, 0, 0.466);
-
 }
 /* INDEX*/
 
@@ -377,20 +341,19 @@ footer{
     font-weight: bolder;
     color: rgb(49, 49, 212);
 }
-/*
+
 @media only screen and (max-width:908px){
     .galeria{
         grid-template-columns:repeat(1, 1fr);
         grid-gap: 10px;
         width: 60%;
     }
-
 }
 
 @media only screen and (max-width:600px) {
     h1{
         display: flex;
-        margin-top: 200px;
+        margin-top: 30px;
         padding: 0%;
         justify-content: center;
     }
