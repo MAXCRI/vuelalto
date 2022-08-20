@@ -15,9 +15,12 @@ nav{
 }
 .btn-info{
     background-color:rgba(137, 137, 247, 0.461) ;
+    color: blue;
 }
 .nav-item{
     padding: 2px;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* Titulos */
@@ -76,7 +79,7 @@ h3{
     width: 600px;
     padding: 10px;
     border-radius: 10px;
-        box-shadow: 7px 4px 6px rgba(0, 0, 0, 0.788);;
+    box-shadow: 7px 4px 6px rgba(0, 0, 0, 0.788);
 }
 /* Se aplica GRIDS en la galeria, el header y las frases de quienens somos*/
 
