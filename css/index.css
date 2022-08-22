@@ -14,15 +14,19 @@ nav{
     width: 40%;
 }
 .btn-info{
-    background-color:rgba(137, 137, 247, 0.461) ;
-    color: blue;
+    background-color:rgba(137, 137, 247, 0.646) ;
+    color: rgba(255, 255, 255, 0.895);
+    box-shadow: 7px 4px 5px rgba(0, 0, 0, 0.788);
+}
+.navbar-collapse{
+    text-align: center;
 }
 .nav-item{
     padding: 2px;
-    border-radius: 10px;
-    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.5);
 }
-
+.navbar-toggler{
+    background-color:rgba(137, 137, 247, 0.646) ;
+}
 /* Titulos */
 h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -65,19 +69,13 @@ h3{
     color:#0c0909;
     text-shadow: 7px 4px 5px rgba(0, 0, 0, 0.466);
 }
-/* INDEX*/
+/* INDEX SE AGREGA UN CONTAINER */
 
-.contenedorTexto{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
 .textoSubtitulo {
     background-color: #eadbebb4;
     font-size: 20px;
-    width: 600px;
     padding: 10px;
+    margin:0, auto;
     border-radius: 10px;
     box-shadow: 7px 4px 6px rgba(0, 0, 0, 0.788);
 }
@@ -132,6 +130,7 @@ h3{
     align-items: center;
     color: white;
     text-shadow: 4px 4px 5px black;
+    text-align: center;
 }
 /* Quines Somos */
 
@@ -215,7 +214,7 @@ h3{
     width: 60%;
     height: 100%;
 }
-/* Talleres*/
+/* Talleres se aplica boostrap a las tablas*/
 
 .tablaTalleres{
     display: flex;
@@ -245,7 +244,7 @@ th,td{
 }
 thead{
     border: solid 2px;
-    background-color: rgb(211, 228, 211);
+    background-color:rgba(137, 137, 247, 0.646) ;
 }
 /* GALERIA */
 
@@ -319,6 +318,9 @@ thead{
     align-items: center;
     justify-content: center;
 }
+.enviar{
+    padding: 10px;
+}
 /* Se agrega Gradiente */
 footer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -342,7 +344,9 @@ footer{
     margin-top: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    color: rgb(49, 49, 212);
+    color:rgb(137, 137, 247);
+    text-shadow: 3px 3px 4px black;
+    font-size: 20px;
 }
 
 @media only screen and (max-width:908px){
@@ -441,6 +445,13 @@ footer{
     }
     .formulario{
         width: 100%;
+    }
+    h1:hover{
+        color:rgba(137, 137, 247, 0.451) ;
+        text-shadow: 3px 3px 4px black;
+        transition-timing-function: ease;
+        transition: 0.5s;
+        font-size: 70px;
     }
 }
 @media only screen and (max-width:682px){
