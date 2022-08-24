@@ -132,77 +132,44 @@ h3{
     text-shadow: 4px 4px 5px black;
     text-align: center;
 }
-/* Quines Somos */
-
-.containerFlex{
-    display: flex;
-    flex-direction: column;
-    border: solid 1px #000;
-    background-color: aliceblue;
-    padding: 20px;
-}
-.containerTestimonio{
-    display: flex;
-    flex-flow: row wrap;
-    width: 60%;
-    height:800px;
-    margin: 0 auto;
-    padding:20px;
-}
-.rostro1{
+/* Quines Somos se utiliza boostrap */
+.rostro1 {
     background-image: url(../img/testimonio1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:150%;
-    border-radius:100%;
+    background-size: 150%;
+    border-radius: 100%;
     height: 120px;
     width: 120px;
     text-align: center;
     line-height: 120px;
     margin-right: 10px;
 }
-.testimonio1{
-    height: 120px;
-    width:80%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.371);
-}
-.rostro2{
+.rostro2 {
     background-image: url(../img/testimonio2.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:150%;
-    border-radius:100%;
+    background-size: 150%;
+    border-radius: 100%;
     height: 120px;
     width: 120px;
     text-align: center;
     line-height: 120px;
     margin-right: 10px;
 }
-.testimonio2{
-    height: 120px;
-    width: 80%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.371);
-}
-.rostro3{
+.rostro3 {
     background-image: url(../img/testimonio4.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:150%;
-    border-radius:100%;
+    background-size: 150%;
+    border-radius: 100%;
     height: 120px;
     width: 120px;
     text-align: center;
     line-height: 120px;
     margin-right: 10px;
 }
-.testimonio3{
-    height: 120px;
-    width: 80%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.371);
-}
+
 .video{
     background-color: white;
     height: 500px;
@@ -502,27 +469,3 @@ footer{
             padding: 3px;
         }
     }
-
-@media only screen and (max-width:1000px){
-    .rostro1{
-        display: none;
-    }
-    .rostro2{
-        display: none;
-    }
-    .rostro3{
-        display: none;
-    }
-    .containerTestimonio{
-        width: 100%;
-    }
-    .testimonio1{
-        overflow:visible;
-    }
-    .testimonio2{
-        overflow: visible;
-    }
-    .testimonio3{
-        overflow: visible;
-    }
-}
